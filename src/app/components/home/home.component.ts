@@ -5,6 +5,7 @@ import { gounsPage1 } from '../../../Data/Gouns/gouns';
 import { lehngacholiPage2 } from '../../../Data/Saree/lenghaCholiPage2';
 import { kurtaPage1 } from '../../../Data/Kurta/kurta';
 import { mensShoesPage1 } from '../../../Data/shoes';
+import { mens_kurta } from '../../../Data/Men/men_kurta';
 
 @Component({
   selector: 'app-home',
@@ -22,7 +23,7 @@ export class HomeComponent {
     this.menJeans = menJeans.slice(0, 5)
     this.womenGouns = gounsPage1.slice(0, 5)
     this.lehangaCholi = lehngacholiPage2.slice(0, 5)
-    this.mensKurta = kurtaPage1.slice(0, 5)
+    this.mensKurta = mens_kurta.slice(0, 5)
     this.mensShoes = mensShoesPage1.slice(0, 5)
   }
 }
